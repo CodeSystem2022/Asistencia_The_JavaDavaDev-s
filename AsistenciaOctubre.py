@@ -31,7 +31,7 @@ class Operacion:
     #Metodo Multuplicar
     def multiplica(self):
         return self.num1 * self.num2
-print('Vamos a realizar una suma y mulriplicacion')
+print('Vamos a realizar una suma y multiplicacion')
 num1 = int(input('Digite un numero cualquiera: '))
 num2 = int(input('Digite otro numero mas: '))
 operacion = Operacion(num1, num2)
