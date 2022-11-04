@@ -1,11 +1,10 @@
 # Asisitencia_The_JavaDavaDev-s
 Asistencia mes de octubre
 
-Intregrantes: (10)
+Intregrantes: (9)
 
 ⌒☆  Johana Martínez;
 ⌒☆  Ciro Valentin Martinez Gonzalez;
-⌒☆  Belen Correa;
 ⌒☆  David Esteche;
 ⌒☆  Sofía Aguirre Zelay;
 ⌒☆  Araceli Pintos;
