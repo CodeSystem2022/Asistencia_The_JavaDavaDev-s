@@ -77,3 +77,23 @@ print(f'La división de los números es: {aritmetica1.dividir():.2f}')
 
 -----------------------------------------------------------------------------------------
 
+# ASISTENCIA OCTUBRE
+# Alumna: Sofía Aguirre Zelay
+
+# CLASS RECTANGULO:
+# Debe tener 2 atributos: altura y base.
+# Se calcula el área del rectangulo, con datos de base y altura ingresados por el usuario.
+
+ class rectangulo:
+    def __init__(self, base, altura):
+        self.altura = altura
+        self.base = base
+    def area(self):
+        return self.base * self.altura
+
+altura = int(input('Ingrese la altura del rectángulo: '))
+base = int(input('Ingrese la base del rectángulo: '))
+area = Rectangulo(altura, base)
+print(f'El área del rectángulo es: {area1.area():.2f}')
+
+----------------------------------------------------------------------------------------------
