@@ -1,5 +1,5 @@
-# Asisitencia_The_JavaDavaDev-s
-Asistencia mes de octubre
+# Asistencia_The_JavaDavaDev-s
+Asistencia mes de Octubre
 
 Intregrantes: (9)
 
