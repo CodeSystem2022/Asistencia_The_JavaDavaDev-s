@@ -148,3 +148,19 @@ area = Rectangulo(altura, base)
 print(f'El área del rectángulo es: {area1.area():.2f}')
 
 ---------------------------------------------------------------------------------------------------
+
+# ASISTENCIA MES DE OCTUBRE
+# THE JAVADABADEV'S
+# Alumno: Ciro Valentin Martinez Gonzalez
+# Ejercicio para encontrar numeros pares js
+
+Let parInpar = 57;
+if(parInpar % 2 == 0){
+    console.log("Es un numero PAR");
+}
+else{
+    console.log("Es un numero IMPAR");
+}
+
+
+
