@@ -97,3 +97,35 @@ area = Rectangulo(altura, base)
 print(f'El área del rectángulo es: {area1.area():.2f}')
 
 ----------------------------------------------------------------------------------------------
+#ASISTENCIA OCTUBRE
+#Alumna: Araceli Pintos
+
+#class Cubo
+#Crear la clase cubo con los atributos: ancho, alto y profundidad
+#con un método calcular_vol que tendrá la formula:
+#volumen = ancho * altura * profundidad
+#El usuario debe ingresar los valores.
+
+
+
+class Cubo:
+    def __init__(self, ancho, altura, profundidad):
+     self.ancho = ancho
+     self.altura = altura
+     self.profundidad= profundidad
+
+    def calcular_vol(self):
+        return self.ancho * self.altura * self.profundidad
+
+ancho = int(input('Digite el ancho del Cubo: '))
+altura = int(input('Digite la altura del Cubo: '))
+profundidad = int(input('Digite la profundidad del Cubo: '))
+
+Cubo1 = Cubo(ancho, altura, profundidad)
+print(f'El volumen del cubo es:{Cubo1.calcular_vol()}')
+
+
+----------------------------------------------------------------------------------------------
+
+
+
