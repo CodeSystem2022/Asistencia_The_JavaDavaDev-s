@@ -127,5 +127,24 @@ print(f'El volumen del cubo es:{Cubo1.calcular_vol()}')
 
 ----------------------------------------------------------------------------------------------
 
+# ASISTENCIA MES DE OCTUBRE
+# THE JAVADABADEV'S
+# Alumna: L. Margarita Campos
 
+#Define un rectángulo según su base y su altura.
+    
+class Rectangulo:
+   
+    class rectangulo:
+    def __init__(self, base, altura):
+        self.altura = altura
+        self.base = base
+    def area(self):
+        return self.base * self.altura
 
+altura = int(input('Ingrese la altura del rectángulo: '))
+base = int(input('Ingrese la base del rectángulo: '))
+area = Rectangulo(altura, base)
+print(f'El área del rectángulo es: {area1.area():.2f}')
+
+---------------------------------------------------------------------------------------------------
