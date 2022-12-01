@@ -26,6 +26,29 @@ print(f'El área del rectangulo es: {rectangulo1.calcular_area()}')
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Asistencia mes de noviembre: David Esteche.
+
+class Asistencia:
+    def __init__(self, materias, dia,horario):
+        self.materias = materias
+        self.dia = dia
+        self.horario = horario
+
+    def __str__(self):
+        return f'La materia {self.materias} se dicta los días {self.dia} en el horario de {self.horario} hs.'
+
+materia1 = Asistencia('Estadistica', 'Lunes', 19)
+print(materia1)
+materia2 = Asistencia('Laboratorio', 'Martes', 19)
+print(materia2)
+materia3 = Asistencia('Arquitectura', 'Miercoles',19)
+print(materia3)
+materia4 = Asistencia('Metodología', 'Miércoles', 21)
+print(materia4)
+materia5 = Asistencia('Ingles', 'Jueves', 20)
+print(materia5)
+materia6 = Asistencia('Programcion', 'Viernes', 19)
+print(materia6)
 
 
 
