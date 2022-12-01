@@ -1,0 +1,32 @@
+# Asistencia mes de Noviembre: Marcelo Boujón
+
+class Rectangulo:
+"""
+Crear una clase llamada Rectángulo, que debe tener 2 atributos: altura y base
+el nombre del método será calcular_area utilizando la fórmula:
+area = base * altura.
+Pero la base y la altura deben ser ingresadas por
+el usuario y los objetos deben ser tres.
+"""
+
+  def init(self, altura, base):
+    self.altura = altura
+    self.base = base
+
+  def calcular_area(self):
+    return self.base * self.altura
+
+base = int(input('Digíte un número para la base del rectángulo: '))
+
+altura = int(input('Digíte un número para la altura del rectángulo: '))
+
+rectangulo1 = Rectangulo(base, altura)
+
+print(f'El área del rectangulo es: {rectangulo1.calcular_area()}')
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
