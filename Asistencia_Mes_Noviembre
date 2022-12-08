@@ -239,7 +239,33 @@ print(persona9)
 print(f'contador personas: {Persona.contador_personas}')
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    # Asistencia mes de noviembre: 
+    # Asistencia mes de noviembre: Sofía Aguirre Zelay
     
+class Persona:
+contador_persona = 0 
+
+def __init__(self, nombre, edad):
+    Persona.contador_personas += 1 
+    self.id_persona = Persona.contador_personas
+    self.nombre = nombre
+    self.edad = edad
+
+def __str__(self):
+    return f'persona [{self.id_persona} {self.nombre} {self.edad}]'
+
+Persona1 = Persona('Lucio', 64)
+print(Persona1)
+Persona2 = Persona('Fabiana', 53)
+print(Persona2)
+persona3 = Persona('Noelia', 35)
+print(persona3)
+persona4 = Persona('Mauro', 33)
+print(persona4)
+persona5 = Persona('Camila', 19)
+print (persona5)
+
+print(f'contador personas: {Persona.contador_personas}')
     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    # Asistencia mes de noviembre:
     
