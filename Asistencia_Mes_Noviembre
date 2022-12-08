@@ -201,7 +201,45 @@ if __name__ == '__main__':
     print(orden2)
 
         --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    # Asistencia mes de noviembre:
+    # Asistencia mes de noviembre: Araceli Pintos
+    
+    
+    class Persona:
+    contador_personas = 0
+
+    def __init__ (self, nombre, edad):
+        Persona.contador_personas += 1
+        self.id_persona = Persona.contador_personas
+        self.nombre = nombre
+        self.edad = edad
+
+    def __str__(self):
+     return f'Persona [{self.id_persona}= {self.nombre} {self.edad}]'
+
+persona1 = Persona('Araceli',20)
+print(persona1)
+persona2 = Persona('Carolina',40)
+print(persona2)
+persona3 = Persona('Sofia',40)
+print(persona3)
+persona4 = Persona('Augusto',40)
+print(persona4)
+persona5 = Persona('Marita',40)
+print(persona5)
+persona6 = Persona('David',40)
+print(persona6)
+persona7 = Persona('Marcelo',40)
+print(persona7)
+persona8 = Persona('Ciro',40)
+print(persona8)
+persona9 = Persona('Joha',40)
+print(persona9)
+
+
+print(f'contador personas: {Persona.contador_personas}')
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    # Asistencia mes de noviembre: 
     
     
     
