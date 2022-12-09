@@ -267,5 +267,23 @@ print (persona5)
 print(f'contador personas: {Persona.contador_personas}')
     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    # Asistencia mes de noviembre:
+    # Asistencia mes de noviembre: Ciro Valentin Martinez Gonzalez
+    
+    class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+    def __add__(self, other):  # Other = otro
+        return f'{self.nombre} {other.nombre}'
+
+    def __sub__(self, otro):  # Sub = (resta)
+        return self.edad - otro.edad
+
+
+persona1 = Persona('Ariel', 40)
+persona2 = Persona('Betancud', 5)
+
+print(persona1 + persona2)
+print(persona1 - persona2)
     
